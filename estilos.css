@@ -1,0 +1,24 @@
+#titulo{
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+
+#divTextos{
+    background-color: beige;
+
+left: 50%;
+
+}
+
+div{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+#botones{
+    margin-top:  6%;
+}
+

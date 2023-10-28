@@ -1,0 +1,33 @@
+#titulo{
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+
+div{
+    text-align: center;
+}
+
+.enlaceProfesor , .enlaceEstudiante {
+    background-color: #199319;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-decoration: none;
+  
+  }
+  #divTextos{
+    margin-top: 5%;
+  }
+  #divEnlaces{
+    margin-top: 8%;
+  }
+
+  .enlaceProfesor:hover , .enlaceEstudiante:hover {
+    background-color: #223094;
+  }
+ .enlaceEstudiante {
+   margin-left: 3%;
+  
+  }

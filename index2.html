@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Notas</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <script src="logica2.js"></script>
+    <script src="logica.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">Califique Al Estudiante</h1>
+        <div id="divTextos">
+            <h3 id="textoDocumento">Indique el documento del estudiante</h3>
+            <input type="number" id="numberDocumento">
+            <h3 id="textoNombre">Indique el nombre del estudiante</h3>
+            <input type="text" id="textNombre">
+            <h3 id="textoAgregar">Indique cuantas notas desea agregar</h3>
+            <input type="number" id="numberCantidadNotas">
+            <button onclick="validarYEnviarDatos()" id="botonEnviar">Enviar</button>
+            <h3 id="textoNotas">Agregue las notas correspondientes</h3>
+<div id="divTextosAleatorios">
+    
+</div>
+        </div>
+        <button onclick="agregarNotas()" id="botonAgregarNotas">Agregar Notas</button>
+        <button onclick="agregarNuevoEstudiante()" id="botonAgregarEstudiante">Agregar Notas De Otro Estudiante</button>
+    </div>
+</body>

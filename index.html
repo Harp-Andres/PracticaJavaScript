@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Notas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="logica2.js"></script>
+    <script src="logica.js"></script>
+
+
+</head>
+
+<body>
+
+    <div>
+        <div id="encabezadosFijos">
+            <h1 id="titulo">Calificaciones Del Estudiante</h1>
+
+            <h3 id="textoDocumento">Indique el documento del estudiante</h3>
+            <input type="number" id="numberDocumento">
+            <button onclick="verificarDocumento()" id="botonValidar">Verificar</button>
+        </div>
+        <div id="encabezadosDinamicos">
+
+        </div>
+        <div id="divTextosDinamicos">
+
+
+        </div>
+        <div id="botones">
+            <button onclick="solicitudNotas()" id="botonNotas">Notas</button>
+            <button onclick="solicitudPromedio()" id="botonPromedio">Promedio</button>
+            <button onclick="solicitudNotaAlta()" id="botonNotaAlta">Nota mas alta</button>
+            <button onclick="solicitudAplazo()" id="botonAplazo">Aplazo</button>
+        </div>
+    </div>
+</body>
+
+
+<!--
+<h4 id="textoNotas"> sus notas son</h4>
+<ul id="listaNotas">
+</ul>
+<p id="textoPromedio">El promedio final de las notas es: <span id="promedio"></span> </p>
+<p id="textoNotaAlta">La nota mas alta del semestre fue: <span id="notaAlta"></span></p>
+<p id="textoAplazo">El estudiante aplazo: <span id="aplazo"></span></p>
+
+-->
+
+
+</html>
